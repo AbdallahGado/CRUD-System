@@ -23,11 +23,11 @@ body {
 
 .btn-back {
   background-color: #ffbf00;
-    border-radius: 10px;
-    color: white;
-    border: none;
-    box-shadow: 0 0 3px #ffbf00;
-    height: 40px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  box-shadow: 0 0 3px #ffbf00;
+  height: 40px;
 }
 
 .btn-back:hover {
@@ -44,9 +44,13 @@ body {
   font-weight: 400;
   line-height: 1.5;
   appearance: none;
-  background-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 1px solid rgba(255, 255, 255, 0.74);
   background-clip: padding-box;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+
   border-radius: var(--bs-border-radius);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
